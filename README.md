@@ -4,5 +4,5 @@
 [![BOOTSTRAP](https://img.shields.io/badge/BOOTSTRAP-7010EF?style=for-the-badge&logo=BOOTSTRAP&logoColor=white&labelColor=101010)]()
 [![JAVASCRIPT](https://img.shields.io/badge/JAVASCRIPT-EFD81D?style=for-the-badge&logo=JAVASCRIPT&logoColor=white&labelColor=101010)]()
 
- - Ejercicios de Lenguaje de Marcas DAW/DAM
- - Ejercicios de Diseño de Interfaces DAW/DAM
+ - Ejercicios de Lenguaje de Marcas 
+ - Ejercicios de Diseño de Interfaces
