@@ -1,36 +1,36 @@
 *{
 	margin:0;
 	padding:0;
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .bg{
-    position:absolute;
-    width:100%;
-    height:100vh;
+	position:absolute;
+	width:100%;
+	height:100vh;
 }
 .bg-blue{  
-    background-color: #447ac0;
-    background-size:cover;
-    animation:bg_change 24s linear 18s infinite;
+	background-color: #447ac0;
+	background-size:cover;
+    	animation:bg_change 24s linear 18s infinite;
 }
         
 .bg-magenta{
-    background-color: #c044b8;
-    background-size:cover;
-    animation:bg_change 24s linear 12s infinite;
+    	background-color: #c044b8;
+    	background-size:cover;
+   	 animation:bg_change 24s linear 12s infinite;
 }
         
 .bg-orange{
-    background-color: #c08a44;
-    background-size:cover;
-    animation:bg_change 24s linear 6s infinite;
+    	background-color: #c08a44;
+    	background-size:cover;
+    	animation:bg_change 24s linear 6s infinite;
 }
         
 .bg-green{
-    background-color: #44c04c;
-    background-size:cover;
-    animation:bg_change 24s linear 0s infinite;
+    	background-color: #44c04c;
+    	background-size:cover;
+    	animation:bg_change 24s linear 0s infinite;
 }
 
 @keyframes bg_change{
