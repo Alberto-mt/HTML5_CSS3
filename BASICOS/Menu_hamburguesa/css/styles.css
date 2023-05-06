@@ -1,5 +1,80 @@
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+	width: 100%;
+}
+
+header,
+main{
+	width: 80%;
+	margin: auto;
+}
+nav#nav-burger {
+  position: relative;
+  width: 90%;
+  height: auto;
+  background: white;
+  top: 50px;
+  left: -120%;
+  transition: left 0.5s;
+}
+
+nav#nav-burger ul li {
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid white;
+  background: #bfbfbf;
+  color: black;
+  font-size: 1.5em;
+}
+
+nav#nav-burger ul li:hover {
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid white;
+  background: #7f7f7f;
+  color: whitesmoke;
+}
+
+label#lbl-burger span {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url(../../../img/menu1.png) no-repeat;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+}
+
+input#ckb-burger {
+  display: none;
+}
+
+label#lbl-burger h2 {
+  position: relative;
+  top: 10px;
+  left: 60px;
+}
+
+label#lbl-burger span:hover {
+  background: url(../../../img/menu2.png) no-repeat;
+  background-size: cover;
+}
+
+input#ckb-burger:checked + label#lbl-burger span {
+  background: url(../../../img/menu3.png) no-repeat;
+  background-size: cover;
+}
+
+input#ckb-burger:checked ~ nav#nav-burger {
+  left: 0px;
 }
