@@ -1,5 +1,76 @@
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+header,
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  height: 10vh;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  line-height: 70px;
+}
+
+nav input {
+  display: none;
+}
+
+nav label {
+  display: block;
+  width: 100%;
+  line-height: 80px;
+  text-align: center;
+  background: #bfbfbf;
+  font-size: 1.5em;
+  color: #000000;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+}
+
+nav label:hover {
+  background: #7f7f7f;
+  color: #ffffff;
+}
+
+nav div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+nav img{
+	max-width: 250px;
+}
+nav p {
+  width: 90%;
+  text-align: justify;
+}
+
+input#chk1:checked ~ #opcion1 {
+  height: 300px;
+}
+
+input#chk2:checked ~ #opcion2 {
+  height: 300px;
+}
+
+input#chk3:checked ~ #opcion3 {
+  height: 300px;
 }
