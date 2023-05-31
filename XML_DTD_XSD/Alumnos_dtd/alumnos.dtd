@@ -1,0 +1,11 @@
+<!ELEMENT alumnos (alumno)+> 
+<!ELEMENT alumno (nombre, edad, telefono+, direccion)>
+<!ATTLIST alumno dni CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT direccion (calle, numero, ciudad, provincia)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
