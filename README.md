@@ -13,3 +13,6 @@
 
 ### Herramientas
 - [VSCode](https://code.visualstudio.com/)
+
+### Validación de XML - DTD - Schema
+- [XMLvalidation](https://www.xmlvalidation.com/)
