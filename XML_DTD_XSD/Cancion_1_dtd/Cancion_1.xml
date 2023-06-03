@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Cancion SYSTEM "Cancion_1.dtd">
+<Cancion Duracion="4:28" Anio="2000">
+	<Titulo>It's my life</Titulo>
+	<Productores>
+		<Productor>
+			<Nombre>Luke</Nombre>
+			<Apellido>Ebbin</Apellido>
+		</Productor>
+		<Productor>
+			<Nombre>Richie</Nombre>
+			<Apellido>Sambora</Apellido>
+		</Productor>
+		<Productor>
+			<Nombre>Max</Nombre>
+			<Apellido>Martin</Apellido>
+		</Productor>	
+	</Productores>
+	<Sello>Island</Sello>
+	<Compositores>
+		<Compositor>
+			<Nombre>Jon</Nombre>
+			<Apellido>Bon Jovi</Apellido>
+		</Compositor>
+	</Compositores>
+	<Artista>Jon Bon Jovi</Artista>	
+</Cancion>
