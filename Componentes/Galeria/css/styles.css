@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+body {
+	width: 100%;
+	background-color: #9fbbde;
+}
+  
+header,
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+  
+header {
+	height: 15vh;
+	background-color: black;
+}
+  
+header h2 {
+	color: whitesmoke;
+	font-size: 2.5em;
+	text-align: center;
+	line-height: 100px;
+}
+  
+main {
+	height: 85vh;
+	padding-top: 20px;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+div#galeria {
+  position: relative;
+  margin: auto;
+  /* width: 1000px; */
+  /* height: 299px; */
+  background: white;
+}
+
+div#galeria ul {
+  position: relative;
+  width: 935px;
+  margin: auto;
+  /* top: 18px; */
+  height: 262px;
+  background: white;
+  box-shadow: 0px 0px 30px #222;
+}
+
+div#galeria ul li label img {
+	/* width: 150px; */
+	height: 71px;
+}
+
+div#galeria ul li div img {
+	/* width: 731px; */
+	height: 222px;
+}
+
+div#galeria ul li div {
+  position: absolute;
+  opacity: 0;
+  right: 200px;
+  top: 22px;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+}
+
+div#galeria ul li div#imgInicio {
+  opacity: 1;
+}
+
+div#galeria ul li div h3 {
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-weight: 100;
+}
+
+div#galeria ul li div p {
+  position: absolute;
+  z-index: 1;
+  bottom: 4px;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 95%;
+  line-height: 60px;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  padding-left: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+div#galeria ul li label {
+  position: relative;
+  z-index: 3;
+  width: 151px;
+  height: 72px;
+  top: 22px;
+  left: 20px;
+  margin: 2px 0;
+  cursor: pointer;
+}
+
+div#galeria ul li input {
+  display: none;
+}
+
+input#rd1:checked ~ #banner1 {
+  opacity: 1;
+  z-index: 1;
+}
+
+input#rd2:checked ~ #banner2 {
+  opacity: 1;
+  z-index: 1;
+}
+
+input#rd3:checked ~ #banner3 {
+  opacity: 1;
+  z-index: 1;
+}
