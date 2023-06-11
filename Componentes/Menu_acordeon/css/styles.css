@@ -9,6 +9,7 @@
 
 body {
   width: 100%;
+  background-color: #447ac0;
 }
 
 header,
@@ -18,11 +19,25 @@ main {
 }
 
 header {
-  height: 10vh;
+  height: 15vh;
   background-color: black;
+}
+
+header h1 {
   color: whitesmoke;
+  font-size: 2.5em;
   text-align: center;
-  line-height: 70px;
+  line-height: 150px;
+}
+
+main {
+  min-height: 85vh;
+  padding-top: 20px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 nav input {
@@ -46,20 +61,29 @@ nav label:hover {
   color: #ffffff;
 }
 
-nav div {
+nav .opcion {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  position: relative;
   height: 0px;
   overflow: hidden;
   transition: height 0.5s;
 }
-nav img{
-	max-width: 250px;
+
+nav .opcion div {
+  margin: auto;
 }
-nav p {
-  width: 90%;
+
+nav .opcion img {
+  display: block;
+  max-width: 250px;
+}
+
+nav .opcion p {
+  margin: 10px 0px;
+  padding: 10px;
   text-align: justify;
 }
 
@@ -73,4 +97,5 @@ input#chk2:checked ~ #opcion2 {
 
 input#chk3:checked ~ #opcion3 {
   height: 300px;
+  margin-bottom: 50px;
 }
