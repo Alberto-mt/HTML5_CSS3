@@ -9,7 +9,7 @@
 
 body {
   width: 100%;
-  background-color: #9fbbde;
+  background-color: #447ac0;
 }
 
 header,
@@ -27,7 +27,7 @@ header h2 {
   color: whitesmoke;
   font-size: 2.5em;
   text-align: center;
-  line-height: 100px;
+  line-height: 150px;
 }
 
 main {
