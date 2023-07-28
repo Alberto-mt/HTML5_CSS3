@@ -6,9 +6,9 @@
 
 [![HTML5](https://img.shields.io/badge/Encabezados-c044b8?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)](https://github.com/Alberto-mt/HTML5_CSS3/blob/main/Apuntes/HTML5/categories/Encabezados.md)
 
-[![HTML5](https://img.shields.io/badge/Parrafos-c08a44?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
+[![HTML5](https://img.shields.io/badge/Etiquetas_de_texto-c08a44?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)](https://github.com/Alberto-mt/HTML5_CSS3/blob/main/Apuntes/HTML5/categories/Etiquetas_de_texto.md)
 
-[![HTML5](https://img.shields.io/badge/Etiquetas_de_texto-44c04c?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
+[![HTML5](https://img.shields.io/badge/Etiquetas_de_texto_en_linea-44c04c?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
 
 [![HTML5](https://img.shields.io/badge/Enlaces-447ac0?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
 
