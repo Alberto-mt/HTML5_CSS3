@@ -2,7 +2,7 @@
 [![HTML5](https://img.shields.io/badge/HTML5-F64A1D?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)](https://github.com/Alberto-mt/HTML5_CSS3/blob/main/Apuntes/HTML5/index.md)
 
 ### Categories
-[![HTML5](https://img.shields.io/badge/Estructura-447ac0?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
+[![HTML5](https://img.shields.io/badge/Estructura-447ac0?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)](https://github.com/Alberto-mt/HTML5_CSS3/blob/main/Apuntes/HTML5/categories/Estructura.md)
 
 [![HTML5](https://img.shields.io/badge/Encabezados-c044b8?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
 
