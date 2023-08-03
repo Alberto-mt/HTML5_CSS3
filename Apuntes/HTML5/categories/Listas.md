@@ -34,9 +34,9 @@
     <!-- TIPOS DE LISTAS -->
     <!-- Lista ordenada -->
     <ol>
-        <l1>rojo</l1>
-        <l1>azul</l1>
-        <l1>verde</l1>
+        <li>rojo</li>
+        <li>azul</li>
+        <li>verde</li>
     </ol>
 
     <!-- Lista desordenada -->
@@ -54,6 +54,7 @@
         <dd>Estilos de página web</dd>
     </dl>
 
+    <hr>
     <!-- ATRIBUTOS DE: ol-->
     <!-- reversed -->
     <ol reversed>
@@ -100,6 +101,39 @@
         <li>Pepe</li>
     </ol>
 
+    <hr>
+    <!-- Listas anidadas -->
+    <ul>
+        <li>Carne
+            <ol>
+                <li>Cerdo</li>
+                <li>Ternera</li>
+            </ol>
+        </li>
+        <li>Fruta y verdura
+            <ol>
+                <li>Lechuga</li>
+                <li>Tomate</li>
+                <li>Naranjas</li>
+            </ol>
+        </li>
+        <li>Pescado
+            <ol>
+                <li>Pescadilla</li>
+                <li>Gambas</li>
+            </ol>
+        </li>
+    </ul>
+
+    <hr>
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="3">Contacto</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
 ```
