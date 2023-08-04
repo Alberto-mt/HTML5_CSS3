@@ -7,19 +7,19 @@
 #### Descripción de etiquetas de listas
 | Etiqueta  | Descripción  |
 |:-:|---|
-| \<ol\>\</ol\>  | Lista ordenada  |
-| \<ul\>\</ul\>  | Lista desordenada  |
-| \<li\>\</li\>  | Elemento de la lista  |
-| \<dl\>\</dl\>  | Lista de descripciones  |
-| \<dt\>\</dt\>  | Término en una lista de descripciones  |
-| \<dd\>\</dd\>  | Describe el término  |
+| **\<ol\>\</ol\>**  | Lista ordenada  |
+| **\<ul\>\</ul\>**  | Lista desordenada  |
+| **\<li\>\</li\>**  | Elemento de la lista  |
+| **\<dl\>\</dl\>**  | Lista de descripciones  |
+| **\<dt\>\</dt\>**  | Término en una lista de descripciones  |
+| **\<dd\>\</dd\>**  | Describe el término  |
 
 #### Atributos de listas ol
 | Atributo  | Descripción  |
 |:-:|---|
-| reversed  | Invertir orden de lista  |
-| start  | Empezar lista por un elemento en concreto  |
-| type  | Tipo de marcador de elementos de la lista ("1","A", "a", "I", "i")  |
+| **reversed**  | Invertir orden de lista  |
+| **start**  | Empezar lista por un elemento en concreto  |
+| **type**  | Tipo de marcador de elementos de la lista ("1","A", "a", "I", "i")  |
 
 #### Ejemplo
 ```html
