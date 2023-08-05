@@ -12,7 +12,7 @@
 | **\<legend\>\</legend\>**  | Leyenda para el elemento <fieldset>  |
 | **\<datalist\>\</datalist\>**  | Especifica una lista de opciones predefinidas para un elemento \<input\>  |
 | **\<input\>**  | Elemento de entrada de datos (de varios tipos)  |
-| **\<label\>\</label\>**  | Elemento visual de texto   |
+| **\<label\>\</label\>**  | Elemento visual que define elementos de entrada de datos del formulario   |
 | **\<select\>\</select\>**  | Define lista desplegable  |
 | **\<optgroup\>\</optgroup\>**  | Grupo de opciones relacionadas en una lista desplegable  |
 | **\<option\>\</option\>**  | Define opción a ser seleccionada  |
