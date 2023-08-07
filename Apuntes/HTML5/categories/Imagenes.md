@@ -24,7 +24,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Etiquetas de texto en línea HTML5</title>
+    <title>Imagenes HTML5</title>
   </head>
   <body>
     <div>
