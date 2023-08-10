@@ -8,7 +8,7 @@
 | Etiqueta  | Descripción  |
 |:-:|---|
 | **id**  | Especifica una identificación única para un elemento HTML  |
-| **class**  | Especificar una clase para uno o varios elementos HTML  |
+| **class**  | Especifica una clase para uno o varios elementos HTML  |
 
 ```html
 <!DOCTYPE html>
