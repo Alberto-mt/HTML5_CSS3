@@ -10,6 +10,7 @@
 | **id**  | Especifica una identificación única para un elemento HTML  |
 | **class**  | Especifica una clase para uno o varios elementos HTML  |
 
+#### Ejemplo
 ```html
 <!DOCTYPE html>
 <html lang="en">
