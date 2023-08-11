@@ -26,6 +26,7 @@
 | **OGG**  | audio/ogg (No soportado por navegador Safari)  |
 | **WAV**  | audio/wav  |
 
+#### Ejemplo
 ```html
 <!DOCTYPE html>
 <html lang="en">
