@@ -37,9 +37,9 @@
   </head>
   <body>
     <audio controls autoplay muted>
-		  <source src="media/audio.mp3" type="audio/mpeg">
-		  <source src="media/audio.ogg" type="audio/ogg">
-	  </audio>
+	<source src="media/audio.mp3" type="audio/mpeg">
+	<source src="media/audio.ogg" type="audio/ogg">
+    </audio>
     
   </body>
 </html>
