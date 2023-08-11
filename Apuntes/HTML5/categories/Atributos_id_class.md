@@ -5,7 +5,7 @@
 [![HTML5](https://img.shields.io/badge/Atributos_id_y_class-447ac0?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)](https://github.com/Alberto-mt/HTML5_CSS3/blob/main/Apuntes/HTML5/categories/Atributos_id_class.md)
 
 #### Descripción de atributos
-| Etiqueta  | Descripción  |
+| Atributo  | Descripción  |
 |:-:|---|
 | **id**  | Especifica una identificación única para un elemento HTML  |
 | **class**  | Especifica una clase para uno o varios elementos HTML  |
