@@ -39,9 +39,9 @@
   </head>
   <body>
     <video width="350" height="250" controls autoplay muted>
-		  <source src="media/video.mp4" type="video/mp4">
-		  <source src="media/video.ogg" type="video/ogg">
-	  </video>
+	<source src="media/video.mp4" type="video/mp4">
+	<source src="media/video.ogg" type="video/ogg">
+    </video>
     
   </body>
 </html>
