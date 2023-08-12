@@ -36,14 +36,12 @@
 
 [![HTML5](https://img.shields.io/badge/Etiquetas_de_maquetado-447ac0?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)](https://github.com/Alberto-mt/HTML5_CSS3/blob/main/Apuntes/HTML5/categories/Etiquetas_de_maquetado.md)
 
-[![HTML5](https://img.shields.io/badge/Div_Article_Section-c044b8?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
+[![HTML5](https://img.shields.io/badge/Etiqueta_script_y_noscript-c044b8?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)](https://github.com/Alberto-mt/HTML5_CSS3/blob/main/Apuntes/HTML5/categories/Etiqueta_script_y_noscript.md)
 
-[![HTML5](https://img.shields.io/badge/Etiqueta_script_y_noscript-c08a44?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
+[![HTML5](https://img.shields.io/badge/Iframe-c08a44?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
 
-[![HTML5](https://img.shields.io/badge/Iframe-44c04c?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
+[![HTML5](https://img.shields.io/badge/Iframe_Youtube-44c04c?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
 
-[![HTML5](https://img.shields.io/badge/Iframe_Youtube-447ac0?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
-
-[![HTML5](https://img.shields.io/badge/Icon-c044b8?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
+[![HTML5](https://img.shields.io/badge/Icon-447ac0?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=101010)]()
 
 [![HTML5](https://img.shields.io/badge/HTML5-F64A1D?style=for-the-badge&label=&#9650;&logoColor=white&labelColor=101010)](https://github.com/Alberto-mt/HTML5_CSS3/blob/main/Apuntes/HTML5/index.md)
