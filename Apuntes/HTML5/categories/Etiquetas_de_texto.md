@@ -14,6 +14,7 @@
 | **\<hr\>**  | División horizontal  |
 | **\<p\>\<\/p\>**  | Párrafo  |
 | **\<pr­e\>\<\/pr­e\>**  | Texto preformateado  |
+
 #### Ejemplo
 ```html
 <!DOCTYPE html>
