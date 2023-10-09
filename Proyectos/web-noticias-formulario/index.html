@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Web de noticias y formulario" />
+    <meta name="keywords" content="HTML,CSS" />
+    <meta name="author" content="Alberto Montealegre" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <title>Web noticias</title>
+  </head>
+  <body>
+    <header>
+      <!-- Logotipo ***** -->
+      <div class="logotipo">
+        <figure>
+          <img src="https://placehold.co/200x200" alt="logo" />
+        </figure>
+        <h1>Web noticias</h1>
+      </div>
+      <!-- Menú hamburguesa ***** -->
+      <div class="mobile-nav-burger">
+        <input type="checkbox" id="ckb-burger" />
+        <label for="ckb-burger" id="lbl-burger">
+          <span></span>
+        </label>
+        <h2 class="mobile">Web noticias</h2>
+        <nav id="nav-burger">
+          <ul>
+            <a href="#"><li>Inicio</li></a>
+            <a href="#"><li>Noticias</li></a>
+            <a href="#"><li>Manuales</li></a>
+            <a href="#"><li>Recursos</li></a>
+          </ul>
+        </nav>
+      </div>
+      <!-- Menú despleglable ***** -->
+      <div class="desktop-nav">
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li>
+              <a href="#">Noticias</a>
+              <ul>
+                <li><a href="#">Aplicaciones</a></li>
+                <li><a href="#">Desarrollo</a></li>
+                <li><a href="#">Herramientas</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Manuales</a>
+              <ul>
+                <li><a href="#">Desarrollo</a></li>
+                <li><a href="#">Diseño</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Recursos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Aside ***** -->
+      <aside>
+        <!-- Widget formulario inicio  -->
+        <div class="widget">
+          <h3>Inicia sesión</h3>
+          <form action="">
+            <label for="txtName">Usuario: </label>
+            <input type="text" name="txtName" id="txtName" placeholder="Nombre de usuario" pattern="[A-Za-z0-9]{4,16}" required title="Introduce 4 a 16 carácteres: letras y números"/>
+
+            <label for="txtPass">Contraseña: </label>
+            <input type="password" name="txtPass" id="txtPass" placeholder="Contraseña" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,}$" required 
+            title="Introduce 8 carácteres: una letra minúscula, una letra mayúscula, un dígito y un carácter especial"/>
+
+            <input type="submit" value="Enviar" id="entrar"/>
+          </form>
+          <p><a href="#" id="registrate">Registrate</a></p>
+        </div>
+
+        <!-- Widget enlaces interes  -->
+        <div class="widget">
+          <h3>Enlaces de interes</h3>
+          <ul>
+            <li>
+              <a class="enlaces-interes"
+                href="#">
+                Lorem ipsum
+              </a>
+            </li>
+            <li>
+              <a class="enlaces-interes"
+                href="#">
+                Lorem ipsum
+              </a>
+            </li>
+            <li>
+              <a class="enlaces-interes"
+                href="#">
+                Lorem ipsum
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <!-- Contenedor principal ***** -->
+      <div class="main-content">
+        <!-- Sección  -->
+        <section>
+          <h2>Herramientas</h2>
+        </section>
+        <!-- Artículos -->
+        <div class="articles">
+          <article>
+            <h3>Lorem ipsum</h3>
+            <figure>
+              <a href="#" target="_blank">
+                <img
+                  src="https://placehold.co/290x174"
+                  loading="lazy"
+                  alt="imagen"/>
+              </a>
+            </figure>
+            <a href="#" target="_blank">Lorem ipsum >></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="date">1 hora</span>
+          </article>
+
+          <article>
+            <h3>Lorem ipsum</h3>
+            <figure>
+              <a href="#" target="_blank">
+                <img
+                  src="https://placehold.co/290x174"
+                  loading="lazy"
+                  alt="imagen"/>
+              </a>
+            </figure>
+            <a href="#" target="_blank">Lorem ipsum >></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="date">1 hora</span>
+          </article>
+
+          <article>
+            <h3>Lorem ipsum</h3>
+            <figure>
+              <a href="#" target="_blank">
+                <img
+                  src="https://placehold.co/290x174"
+                  loading="lazy"
+                  alt="imagen"/>
+              </a>
+            </figure>
+            <a href="#" target="_blank">Lorem ipsum >></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="date">1 hora</span>
+          </article>
+
+          <article>
+            <h3>Lorem ipsum</h3>
+            <figure>
+              <a href="#" target="_blank">
+                <img
+                  src="https://placehold.co/290x174"
+                  loading="lazy"
+                  alt="imagen"/>
+              </a>
+            </figure>
+            <a href="#" target="_blank">Lorem ipsum >></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="date">1 hora</span>
+          </article>
+
+          <article>
+            <h3>Lorem ipsum</h3>
+            <figure>
+              <a href="#" target="_blank">
+                <img
+                  src="https://placehold.co/290x174"
+                  loading="lazy"
+                  alt="imagen"/>
+              </a>
+            </figure>
+            <a href="#" target="_blank">Lorem ipsum >></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="date">1 hora</span>
+          </article>
+        </div>
+        <!-- Sección  -->
+        <section>
+          <h2>Directorios de desarrollo</h2>
+        </section>
+        <!-- Artículos  -->
+        <!-- Artículos -->
+        <div class="articles">
+          <article>
+            <h3>Lorem ipsum</h3>
+            <figure>
+              <a href="#" target="_blank">
+                <img
+                  src="https://placehold.co/290x174"
+                  loading="lazy"
+                  alt="imagen"/>
+              </a>
+            </figure>
+            <a href="#" target="_blank">Lorem ipsum >></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="date">1 hora</span>
+          </article>
+
+          <article>
+            <h3>Lorem ipsum</h3>
+            <figure>
+              <a href="#" target="_blank">
+                <img
+                  src="https://placehold.co/290x174"
+                  loading="lazy"
+                  alt="imagen"/>
+              </a>
+            </figure>
+            <a href="#" target="_blank">Lorem ipsum >></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="date">1 hora</span>
+          </article>
+
+          <article>
+            <h3>Lorem ipsum</h3>
+            <figure>
+              <a href="#" target="_blank">
+                <img
+                  src="https://placehold.co/290x174"
+                  loading="lazy"
+                  alt="imagen"/>
+              </a>
+            </figure>
+            <a href="#" target="_blank">Lorem ipsum >></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span class="date">1 hora</span>
+          </article>
+        </div>
+      </div>
+    </main>
+    <!-- Footer ***** -->
+    <footer>
+      <div class="anim-bg1"></div> 
+      <div class="anim-bg2"></div>  
+      <div class="anim-bg3"></div>
+      <div class="anim-bg4"></div>
+      <h4>&copy; Alberto Montealegre 09/2023</h4>
+    </footer>
+  </body>
+</html>
