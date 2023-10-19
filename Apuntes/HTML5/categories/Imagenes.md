@@ -11,11 +11,13 @@
 
 #### Atributos de listas ol
 | Atributo  | Descripción  |
-|:-:|---|
+|---|---|
 | **src**  | Ruta o dirección de la imagen  |
 | **alt**  | Texto alternativo de imagen (al no cargar)  |
 | **width**  | Anchura de imagen  |
 | **height**  | Altura de imagen  |
+| **loading**  | Controlar carga de la imagen<br>-**lazy:** para retrasar la carga de la imagen hasta que sea visible en la ventana del navegador<br>-**eager:** para cargar la imagen inmediatamente  |
+| **onerror="this.src='\[Ruta imagen\]'"**  | Imagen alternativa (al no cargar)  |
 
 #### Ejemplo
 ```html
@@ -38,6 +40,8 @@
         alt="imagen_200x200"
         width="200"
         height="200"
+        loading="lazy"
+        onerror="this.src='img/600x400.svg'"
       />
     </div>
   </body>
