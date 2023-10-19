@@ -16,7 +16,7 @@
 | **alt**  | Texto alternativo de imagen (al no cargar)  |
 | **width**  | Anchura de imagen  |
 | **height**  | Altura de imagen  |
-| **loading**  | Controlar carga de la imagen<br>-**lazy:** para retrasar la carga de la imagen hasta que sea visible en la ventana del navegador<br>-**eager:** para cargar la imagen inmediatamente  |
+| **loading**  | Controlar carga de la imagen<br>- **lazy:** para retrasar la carga de la imagen hasta que sea visible en la ventana del navegador<br>- **eager:** para cargar la imagen inmediatamente  |
 | **onerror="this.src='\[Ruta imagen\]'"**  | Imagen alternativa (al no cargar)  |
 
 #### Ejemplo
